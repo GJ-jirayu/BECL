@@ -1,0 +1,443 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples
+END
+barLineAnimated.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/barLineAnimated.html
+END
+waterfall.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/waterfall.html
+END
+pie-donut-charts.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/pie-donut-charts.html
+END
+kcp_area2.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_area2.html
+END
+axisLabelTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/axisLabelTests.html
+END
+ajax-loader.gif
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/ajax-loader.gif
+END
+nav.inc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/nav.inc
+END
+kcp_cdf.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_cdf.html
+END
+rotated-tick-labels.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/rotated-tick-labels.html
+END
+bubble-plots.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/bubble-plots.html
+END
+canvas-overlay.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/canvas-overlay.html
+END
+kcp_pyramid_by_age.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_pyramid_by_age.php
+END
+dashboardWidget.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/dashboardWidget.html
+END
+multipleBarColors.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/multipleBarColors.html
+END
+kcp_pyramid.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_pyramid.html
+END
+rotatedTickLabelsZoom.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/rotatedTickLabelsZoom.html
+END
+candlestick-charts.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/candlestick-charts.html
+END
+line-charts.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/line-charts.html
+END
+cursor-highlighter.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/cursor-highlighter.html
+END
+bubbleChart.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/bubbleChart.html
+END
+hiddenPlotsInTabs.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/hiddenPlotsInTabs.html
+END
+yahooData.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/yahooData.js
+END
+zooming.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/zooming.html
+END
+ages.json
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/ages.json
+END
+example.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/example.min.js
+END
+point-labels.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/point-labels.html
+END
+dateAxisRenderer.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/dateAxisRenderer.html
+END
+smoothedLine.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/smoothedLine.html
+END
+customHighlighterCursorTrendline.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/customHighlighterCursorTrendline.html
+END
+dateAxisLogAxisZooming.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/dateAxisLogAxisZooming.html
+END
+topbanner.inc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/topbanner.inc
+END
+data-renderers.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/data-renderers.html
+END
+zoomOptions.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/zoomOptions.html
+END
+waterfall2.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/waterfall2.html
+END
+barTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/barTest.html
+END
+zoom1.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/zoom1.html
+END
+area.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/area.html
+END
+kcp_quintiles.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_quintiles.html
+END
+jsondata.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/jsondata.txt
+END
+quintiles.json
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/quintiles.json
+END
+draw-rectangles.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/draw-rectangles.html
+END
+dashedLines.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/dashedLines.html
+END
+axisScalingForceTickAt.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/axisScalingForceTickAt.html
+END
+candlestick.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/candlestick.html
+END
+bandedLine.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/bandedLine.html
+END
+bar-charts.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/bar-charts.html
+END
+zoomProxy.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/zoomProxy.html
+END
+selectorSyntax.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/selectorSyntax.html
+END
+kcp_engel.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_engel.html
+END
+KCPsample4.csv
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/KCPsample4.csv
+END
+fillBetweenLines.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/fillBetweenLines.html
+END
+theming.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/theming.html
+END
+pieTest4.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/pieTest4.html
+END
+examples.css
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/examples.css
+END
+example.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/example.js
+END
+kcp_area.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_area.html
+END
+pieTest2.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/pieTest2.js
+END
+pieTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/pieTest.html
+END
+resizablePlot.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/resizablePlot.html
+END
+axisLabelsRotatedText.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/axisLabelsRotatedText.html
+END
+kcp.print.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp.print.js
+END
+kcp_pyramid2.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_pyramid2.html
+END
+examples.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/examples.min.css
+END
+meterGauge.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/meterGauge.html
+END
+bezierCurve.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/bezierCurve.html
+END
+blockPlot.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/blockPlot.html
+END
+yahooData.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/yahooData.min.js
+END
+kcp_pdf.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_pdf.html
+END
+kcp_lorenz.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_lorenz.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/index.html
+END
+kcp_pyramid_by_age.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/kcp_pyramid_by_age.html
+END
+mekkoCharts.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/mekkoCharts.html
+END
+date-axes.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/Kmutt/WebContent/libraryChart/jqplot/examples/date-axes.html
+END

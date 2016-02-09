@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-sequence> 
+<title/>
+<version>1</version>
+<logging-level>ERROR</logging-level>
+<documentation> 
+<author/> 
+<description>Empty blank action sequence document</description> 
+<help/> 
+<result-type/> 
+<icon/> 
+</documentation>
+<inputs/>
+<outputs>
+<tom type="string">
+<destinations>
+<response>content</response>
+</destinations>
+</tom>
+</outputs>
+<resources/>
+<actions> 
+<action-definition>
+<component-name>TemplateComponent</component-name>
+<action-type>tom</action-type>
+<action-outputs>
+<output-message type="string" mapping="tom"/>
+</action-outputs>
+<component-definition>
+<template><![CDATA[<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>JSP Page</title>
+<script language="Javascript">
+function forward(){
+location.href="http://10.250.1.37:8080/pentaho/BECL/View/index.html";
+}
+</script> 
+</head>
+<body onload=setTimeout('forward()')>
+</body>
+</html>]]></template>
+</component-definition>
+</action-definition>
+</actions> 
+</action-sequence>

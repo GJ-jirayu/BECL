@@ -1,0 +1,238 @@
+<Schema name="passing transection">
+  <Dimension type="TimeDimension" visible="true" highCardinality="false" name="date" caption="&#3623;&#3633;&#3609;&#3648;&#3604;&#3639;&#3629;&#3609;&#3611;&#3637;">
+    <Hierarchy visible="true" hasAll="true" primaryKey="DATE_KEY">
+      <Table name="DIM_DATE" schema="BECL_DWH">
+      </Table>
+      <Level name="year" visible="true" column="CALENDAR_YEAR" ordinalColumn="DATE_KEY" type="Integer" uniqueMembers="true" levelType="TimeYears" hideMemberIf="Never" caption="&#3611;&#3637;">
+      </Level>
+      <Level name="quarter" visible="true" column="CALENDAR_QUARTER" ordinalColumn="DATE_KEY" type="String" uniqueMembers="true" levelType="TimeQuarters" hideMemberIf="Never" caption="&#3652;&#3605;&#3619;&#3617;&#3634;&#3626;">
+      </Level>
+      <Level name="month" visible="true" column="CALENDAR_MONTH_NAME" ordinalColumn="CALENDAR_MONTH_NO" type="String" uniqueMembers="true" levelType="TimeMonths" hideMemberIf="Never" caption="&#3648;&#3604;&#3639;&#3629;&#3609;">
+      </Level>
+      <Level name="Date" visible="true" column="CALENDAR_DATE" ordinalColumn="DATE_KEY" type="Date" uniqueMembers="true" levelType="TimeDays" hideMemberIf="Never" caption="&#3623;&#3633;&#3609;&#3607;&#3637;&#3656;">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="time_range_group" caption="&#3594;&#3656;&#3623;&#3591;&#3648;&#3623;&#3621;&#3634;">
+    <Hierarchy visible="true" hasAll="true" primaryKey="TIME_RANGE_KEY">
+      <Table name="DIM_TIME_RANGE" schema="BECL_DWH">
+      </Table>
+      <Level name="time_range_group" visible="true" column="TIME_RANGE_GROUP" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3656;&#3623;&#3591;&#3648;&#3623;&#3621;&#3634;">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="time_range_desc" caption="&#3594;&#3656;&#3623;&#3591;&#3609;&#3634;&#3607;&#3637;">
+    <Hierarchy visible="true" hasAll="true" primaryKey="TIME_RANGE_KEY">
+      <Table name="DIM_TIME_RANGE" schema="BECL_DWH">
+      </Table>
+      <Level name="time_range_desc" visible="true" column="TIME_RANGE_DESC" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3656;&#3623;&#3591;&#3609;&#3634;&#3607;&#3637;">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="tsb_desc_en" caption="&#3594;&#3639;&#3656;&#3629;&#3629;&#3634;&#3588;&#3634;&#3619;&#3604;&#3656;&#3634;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3629;&#3633;&#3591;&#3585;&#3620;&#3625;)">
+    <Hierarchy visible="true" hasAll="true" primaryKey="TSB_KEY">
+      <Table name="DIM_TSB" schema="BECL_DWH">
+      </Table>
+      <Level name="tsb_desc_en" visible="true" column="TSB_DESC_EN" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;&#3629;&#3634;&#3588;&#3634;&#3619;&#3604;&#3656;&#3634;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3629;&#3633;&#3591;&#3585;&#3620;&#3625;)">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="tsb_desc_th" caption="&#3594;&#3639;&#3656;&#3629;&#3629;&#3634;&#3588;&#3634;&#3619;&#3604;&#3656;&#3634;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3652;&#3607;&#3618;)">
+    <Hierarchy visible="true" hasAll="true" primaryKey="TSB_KEY">
+      <Table name="DIM_TSB" schema="BECL_DWH">
+      </Table>
+      <Level name="tsb_desc_th" visible="true" column="TSB_DESC_TH" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;&#3629;&#3634;&#3588;&#3634;&#3619;&#3604;&#3656;&#3634;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3652;&#3607;&#3618;)">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="sector_code" caption="&#3619;&#3627;&#3633;&#3626;&#3585;&#3621;&#3640;&#3656;&#3617;&#3604;&#3656;&#3634;&#3609;&#3648;&#3585;&#3655;&#3610;&#3648;&#3591;&#3636;&#3609;">
+    <Hierarchy visible="true" hasAll="true" primaryKey="TSB_KEY">
+      <Table name="DIM_TSB" schema="BECL_DWH">
+      </Table>
+      <Level name="sector_code" visible="true" column="SECTOR_CODE" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3619;&#3627;&#3633;&#3626;&#3585;&#3621;&#3640;&#3656;&#3617;&#3604;&#3656;&#3634;&#3609;&#3648;&#3585;&#3655;&#3610;&#3648;&#3591;&#3636;&#3609;">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="plaza" caption="&#3619;&#3627;&#3633;&#3626;&#3604;&#3656;&#3634;&#3609;">
+    <Hierarchy visible="true" hasAll="true" primaryKey="PLAZA_KEY">
+      <Table name="DIM_PLAZA" schema="BECL_DWH">
+      </Table>
+      <Level name="plaza_id" visible="true" column="PLAZA_ID" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3619;&#3627;&#3633;&#3626;&#3604;&#3656;&#3634;&#3609;">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="plaza_name_en" caption="&#3594;&#3639;&#3656;&#3629;&#3604;&#3656;&#3634;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3629;&#3633;&#3591;&#3585;&#3620;&#3625;)">
+    <Hierarchy visible="true" hasAll="true" primaryKey="PLAZA_KEY">
+      <Table name="DIM_PLAZA" schema="BECL_DWH">
+      </Table>
+      <Level name="plaza_name_en" visible="true" column="PLAZA_NAME_EN" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;&#3604;&#3656;&#3634;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3629;&#3633;&#3591;&#3585;&#3620;&#3625;)">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="plaza_name_thai" caption="&#3594;&#3639;&#3656;&#3629;&#3604;&#3656;&#3634;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3652;&#3607;&#3618;)">
+    <Hierarchy visible="true" hasAll="true" primaryKey="PLAZA_KEY">
+      <Table name="DIM_PLAZA" schema="BECL_DWH">
+      </Table>
+      <Level name="plaza_name_thai" visible="true" column="PLAZA_NAME_TH" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;&#3604;&#3656;&#3634;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3652;&#3607;&#3618;)">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="highway_name" caption="&#3594;&#3639;&#3656;&#3629;&#3626;&#3634;&#3618;&#3607;&#3634;&#3591;">
+    <Hierarchy visible="true" hasAll="true" primaryKey="PLAZA_KEY">
+      <Table name="DIM_PLAZA" schema="BECL_DWH">
+      </Table>
+      <Level name="hightway_name" visible="true" column="HIGHWAY_NAME" ordinalColumn="HIGHWAY_CODE" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;&#3626;&#3634;&#3618;&#3607;&#3634;&#3591;">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="signal_id" caption="&#3619;&#3627;&#3633;&#3626;&#3585;&#3634;&#3619;&#3612;&#3656;&#3634;&#3609;&#3652;&#3617;&#3657;&#3585;&#3633;&#3657;&#3609;">
+    <Hierarchy visible="true" hasAll="true" primaryKey="SIGNAL_KEY">
+      <Table name="DIM_SIGNAL" schema="BECL_DWH">
+      </Table>
+      <Level name="signal_id" visible="true" column="SIGNAL_ID" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3619;&#3627;&#3633;&#3626;&#3585;&#3634;&#3619;&#3612;&#3656;&#3634;&#3609;&#3652;&#3617;&#3657;&#3585;&#3633;&#3657;&#3609;">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="signal_desc_en" caption="&#3594;&#3639;&#3656;&#3629;&#3585;&#3634;&#3619;&#3612;&#3656;&#3634;&#3609;&#3652;&#3617;&#3657;&#3585;&#3633;&#3657;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3629;&#3633;&#3591;&#3585;&#3620;&#3625;)">
+    <Hierarchy visible="true" hasAll="true" primaryKey="SIGNAL_KEY">
+      <Table name="DIM_SIGNAL" schema="BECL_DWH">
+      </Table>
+      <Level name="signal_desc_en" visible="true" column="SIGNAL_DESC_EN" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;&#3585;&#3634;&#3619;&#3612;&#3656;&#3634;&#3609;&#3652;&#3617;&#3657;&#3585;&#3633;&#3657;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3629;&#3633;&#3591;&#3585;&#3620;&#3625;)">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="signal_desc_th" caption="&#3594;&#3639;&#3656;&#3629;&#3585;&#3634;&#3619;&#3612;&#3656;&#3634;&#3609;&#3652;&#3617;&#3657;&#3585;&#3633;&#3657;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3652;&#3607;&#3618;)">
+    <Hierarchy visible="true" hasAll="true" primaryKey="SIGNAL_KEY">
+      <Table name="DIM_SIGNAL" schema="BECL_DWH">
+      </Table>
+      <Level name="signal_desc_th" visible="true" column="SIGNAL_DESC_TH" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;&#3585;&#3634;&#3619;&#3612;&#3656;&#3634;&#3609;&#3652;&#3617;&#3657;&#3585;&#3633;&#3657;&#3609;(&#3616;&#3634;&#3625;&#3634;&#3652;&#3607;&#3618;)">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="signal_bitmap_id">
+    <Hierarchy visible="true" hasAll="true" primaryKey="SIGNAL_BITMAP_KEY">
+      <Table name="DIM_SIGNAL_BITMAP" schema="BECL_DWH">
+      </Table>
+      <Level name="signal_bitmap_id" visible="true" column="SIGNAL_BITMAP_ID" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="signal_bitmap_flag" caption="&#3592;&#3635;&#3609;&#3623;&#3609; bitmap">
+    <Hierarchy visible="true" hasAll="true" primaryKey="SIGNAL_BITMAP_KEY">
+      <Table name="DIM_SIGNAL_BITMAP" schema="BECL_DWH">
+      </Table>
+      <Level name="signal_bitmap_flag" visible="true" column="FLAG" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3592;&#3635;&#3609;&#3623;&#3609; bitmap">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="signal_bitmap_desc" caption="&#3594;&#3639;&#3656;&#3629;bitmap">
+    <Hierarchy visible="true" hasAll="true" primaryKey="SIGNAL_BITMAP_KEY">
+      <Table name="DIM_SIGNAL_BITMAP" schema="BECL_DWH">
+      </Table>
+      <Level name="signal_bitmap_desc" visible="true" column="SIGNAL_BITMAP_DESC" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;bitmap">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="lane_mode_id" caption="&#3619;&#3627;&#3633;&#3626;&#3650;&#3627;&#3617;&#3604;&#3586;&#3629;&#3591;&#3594;&#3656;&#3629;&#3591;&#3648;&#3585;&#3655;&#3610;&#3648;&#3591;&#3636;&#3609;">
+    <Hierarchy visible="true" hasAll="true" primaryKey="LANE_MODE_KEY">
+      <Table name="DIM_LANE_MODE" schema="BECL_DWH">
+      </Table>
+      <Level name="lane_mode_id" visible="true" column="LANE_MODE_ID" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3619;&#3627;&#3633;&#3626;&#3650;&#3627;&#3617;&#3604;&#3586;&#3629;&#3591;&#3594;&#3656;&#3629;&#3591;&#3648;&#3585;&#3655;&#3610;&#3648;&#3591;&#3636;&#3609;">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="lane_mode_desc" caption="&#3594;&#3639;&#3656;&#3629;&#3650;&#3627;&#3617;&#3604;&#3586;&#3629;&#3591;&#3594;&#3656;&#3629;&#3591;&#3648;&#3585;&#3655;&#3610;&#3648;&#3591;&#3636;&#3609;">
+    <Hierarchy visible="true" hasAll="true" primaryKey="LANE_MODE_KEY">
+      <Table name="DIM_LANE_MODE" schema="BECL_DWH">
+      </Table>
+      <Level name="lane_mode_desc" visible="true" column="LANE_MODE_SHORT_DESC" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;&#3650;&#3627;&#3617;&#3604;&#3586;&#3629;&#3591;&#3594;&#3656;&#3629;&#3591;&#3648;&#3585;&#3655;&#3610;&#3648;&#3591;&#3636;&#3609;">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="vehicle_class_id" caption="&#3619;&#3627;&#3633;&#3626;&#3611;&#3619;&#3632;&#3648;&#3616;&#3607;&#3619;&#3606;">
+    <Hierarchy visible="true" hasAll="true" primaryKey="VEHICLE_CLASS_KEY">
+      <Table name="DIM_VEHICLE_CLASS" schema="BECL_DWH">
+      </Table>
+      <Level name="vehicle_class_id" visible="true" column="VEHICLE_CLASS_ID" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3619;&#3627;&#3633;&#3626;&#3611;&#3619;&#3632;&#3648;&#3616;&#3607;&#3619;&#3606;">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="vehicle_class_desc_en" caption="&#3594;&#3639;&#3656;&#3629;&#3611;&#3619;&#3632;&#3648;&#3616;&#3607;&#3619;&#3606;(&#3616;&#3634;&#3625;&#3634;&#3629;&#3633;&#3591;&#3585;&#3620;&#3625;)">
+    <Hierarchy visible="true" hasAll="true" primaryKey="VEHICLE_CLASS_KEY">
+      <Table name="DIM_VEHICLE_CLASS" schema="BECL_DWH">
+      </Table>
+      <Level name="vehicle_class_desc_en" visible="true" column="VEHICLE_CLASS_DESC_EN" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;&#3611;&#3619;&#3632;&#3648;&#3616;&#3607;&#3619;&#3606;(&#3616;&#3634;&#3625;&#3634;&#3629;&#3633;&#3591;&#3585;&#3620;&#3625;)">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="vehicle_class_desc_th" caption="&#3594;&#3639;&#3656;&#3629;&#3611;&#3619;&#3632;&#3648;&#3616;&#3607;&#3619;&#3606;(&#3616;&#3634;&#3625;&#3634;&#3652;&#3607;&#3618;)">
+    <Hierarchy visible="true" hasAll="true" primaryKey="VEHICLE_CLASS_KEY">
+      <Table name="DIM_VEHICLE_CLASS" schema="BECL_DWH">
+      </Table>
+      <Level name="vehicle_class_desc_th" visible="true" column="VEHICLE_CLASS_TH" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3639;&#3656;&#3629;&#3611;&#3619;&#3632;&#3648;&#3616;&#3607;(&#3616;&#3634;&#3625;&#3634;&#3652;&#3607;&#3618;)">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="TimeDimension" visible="true" highCardinality="false" name="dim_date">
+    <Hierarchy visible="true" hasAll="true" primaryKey="DATE_KEY">
+      <Table name="DIM_DATE" schema="BECL_DWH">
+      </Table>
+      <Level name="CALENDAR_DATE" visible="true" column="CALENDAR_DATE" ordinalColumn="DATE_KEY" type="Date" uniqueMembers="true" levelType="TimeDays" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Cube name="Passing_Tran" caption="&#3611;&#3619;&#3636;&#3617;&#3634;&#3603;&#3585;&#3634;&#3619;&#3612;&#3656;&#3634;&#3609;&#3607;&#3634;&#3591;" visible="true" cache="true" enabled="true">
+    <Table name="FACT_PASSING_TRANS" schema="BECL_DWH">
+    </Table>
+    <DimensionUsage source="date" name="date" visible="true" foreignKey="DATE_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="time_range_group" name="time_range_group" visible="true" foreignKey="TIME_RANGE_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="time_range_desc" name="time_range_desc" visible="true" foreignKey="TIME_RANGE_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="tsb_desc_en" name="tsb_desc_en" visible="true" foreignKey="TSB_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="tsb_desc_th" name="tsb_desc_th" visible="true" foreignKey="TSB_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="sector_code" name="sector_code" visible="true" foreignKey="TSB_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="plaza" name="plaza" visible="true" foreignKey="PLAZA_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="plaza_name_en" name="plaza_name_en" visible="true" foreignKey="PLAZA_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="plaza_name_thai" name="plaza_name_thai" visible="true" foreignKey="PLAZA_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="highway_name" name="highway_name" visible="true" foreignKey="PLAZA_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="signal_id" name="signal_id" visible="true" foreignKey="SIGNAL_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="signal_desc_en" name="signal_desc_en" visible="true" foreignKey="SIGNAL_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="signal_desc_th" name="signal_desc_th" visible="true" foreignKey="SIGNAL_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="signal_bitmap_id" name="signal_bitmap_id" visible="true" foreignKey="SIGNAL_BITMAP_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="signal_bitmap_flag" name="signal_bitmap_flag" visible="true" foreignKey="SIGNAL_BITMAP_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="signal_bitmap_desc" name="signal_bitmap_desc" visible="true" foreignKey="SIGNAL_BITMAP_KEY" highCardinality="false">
+    </DimensionUsage>
+    <Dimension type="StandardDimension" visible="true" foreignKey="LANE_ID" highCardinality="false" name="lane_id" caption="&#3594;&#3629;&#3591;&#3607;&#3634;&#3591;">
+      <Hierarchy visible="true" hasAll="true" primaryKey="LANE_ID">
+        <Level name="lane_id" visible="true" column="LANE_ID" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#3594;&#3656;&#3629;&#3591;&#3607;&#3634;&#3591;">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <DimensionUsage source="lane_mode_id" name="lane_mode_id" visible="true" foreignKey="LANE_MODE_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="lane_mode_desc" name="lane_mode_desc" visible="true" foreignKey="LANE_MODE_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="vehicle_class_id" name="vehicle_class_id" visible="true" foreignKey="VEHICLE_CLASS_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="vehicle_class_desc_en" name="vehicle_class_desc_en" visible="true" foreignKey="VEHICLE_CLASS_KEY" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="vehicle_class_desc_th" name="vehicle_class_desc_th" visible="true" foreignKey="VEHICLE_CLASS_KEY" highCardinality="false">
+    </DimensionUsage>
+    <Measure name="NO_OF_PASSING" column="NO_OF_PASSING" datatype="Integer" aggregator="sum" caption="&#3592;&#3635;&#3609;&#3623;&#3609;&#3619;&#3606;" visible="true">
+    </Measure>
+  </Cube>
+</Schema>
